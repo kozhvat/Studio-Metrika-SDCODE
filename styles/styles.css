@@ -6,13 +6,15 @@ body {
 .width_1400px {
   width: 1400px;
   margin: 0 auto;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  /* из-за border-box текст вылазит за границу, а без него всё хорошо */
 }
 .width_1150px {
   width: 1150px;
   margin: 0 auto;
   padding: 0 125px;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  /* из-за border-box текст вылазит за границу, а без него всё хорошо */
 }
 .header {
   height: 25px;
