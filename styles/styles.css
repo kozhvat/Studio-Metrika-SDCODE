@@ -29,7 +29,7 @@ h1 {
 }
 .img1__p {
   position: relative;
-  background: url(/resourses/img/png/Rectangle\ 1.png) no-repeat;
+  background: url(../resourses/img/png/Rectangle\ 1.png) no-repeat;
   width: 100%;
   height: 500px;
 }
