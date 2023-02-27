@@ -25,11 +25,33 @@ a {
   width: 1150px;
   padding: 0 125px;
 }
+.identical_headers,
+.identical_headers a {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 .header {
   height: 25px;
   padding: 33px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
 }
-.navigation {
+.header__links {
+  margin: 0 auto;
+  width: 450px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 87px 0;
+}
+.header__links li a {
+  color: #121212;
+}
+.header__link1 {
+  border-bottom: 1px solid #000;
+  opacity: 0.5;
 }
 h1 {
   margin: 0 0 30px 0;
@@ -37,16 +59,16 @@ h1 {
   font-size: 60px;
   line-height: 60px;
 }
-.img1 {
+.we__interior {
   margin: 0 0 150px 0;
 }
-.img1__p {
+.we__interior__p {
   width: 100%;
   height: 500px;
   position: relative;
   background: url(../resourses/img/png/img_0.png) no-repeat;
 }
-.img1__p p {
+.we__interior__p p {
   width: 430px;
   left: 40px;
   bottom: 40px;
@@ -60,9 +82,6 @@ h1 {
 }
 .about_us h2 {
   margin: 0 0 30px 0;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
 }
 
 .about_us__p {
@@ -71,7 +90,7 @@ h1 {
   font-size: 45px;
   line-height: 61px;
 }
-.link_services {
+.about_us__link_services {
   width: 255px;
   height: 67px;
   display: block;
@@ -90,9 +109,6 @@ h1 {
 }
 .projects h2 {
   margin: 0 0 30px 0;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
 }
 .projects img {
   margin: 0 0 15px 0;
@@ -114,7 +130,7 @@ h1 {
   cursor: pointer;
 }
 
-.link_all_projects {
+.projects__link_view_all {
   height: 153px;
   display: block;
   font-size: 30px;
@@ -152,18 +168,18 @@ h1 {
   margin: 0 0 15px 0;
 }
 .services__list li:not(:last-child) {
-  margin: 0 0 60px 0px;
+  margin: 0 0 60px 0;
 }
 .example {
   margin: 0 0 150px 0;
 }
-.example__img8__p {
+.example__img8_p {
   width: 100%;
   height: 717px;
   position: relative;
   background: url(../resourses/img/png/img_8.png) no-repeat;
 }
-.example__img8__p p {
+.example__img8_p p {
   width: 443px;
   left: 125px;
   bottom: 60px;
@@ -178,11 +194,8 @@ h1 {
 .contacts__phone_img {
   margin: 0 0 12px 0;
 }
-.contacts__h2 h2 {
+.contacts__h2 {
   margin: 0 0 32px 0;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
 }
 .contacts__tel a {
   margin: 0 0 30px 0;
@@ -202,21 +215,29 @@ h1 {
 }
 .footer {
   width: 100%;
-  height: 229px;
-  float: right;
   padding: 60px 0 30px 0;
   text-align: center;
   background: #121212;
   color: #ffffff;
 }
 .footer__links {
-  margin: 0 0 87px 0;
+  margin: 0 auto;
   width: 450px;
   height: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 87px 0;
   color: #ffffff;
 }
-
-identical headers {
-  /* СЮДА ПИШИ ОДИНАКОВЫЕ СВОЙСТВА ВСЕХ H2 И ССЫЛОК. ТЫ ПОНЯЛ КАКИХ.
-  ГДЕ text-transform: uppercace; и соответственно удали старые стили*/
+.footer__links li a {
+  color: #ffffff;
+}
+.footer__link1 {
+  opacity: 0.5;
+}
+.copyright {
+  font-size: 20px;
+  line-height: 27px;
+  padding: 0 0 0 5px;
+  opacity: 0.5;
 }
