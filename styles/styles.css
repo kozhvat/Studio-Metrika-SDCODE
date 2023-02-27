@@ -27,7 +27,7 @@ a {
 }
 .header {
   height: 25px;
-  margin: 33px 0px 70px 0px;
+  padding: 33px 0 70px 0;
 }
 .navigation {
 }
@@ -47,13 +47,13 @@ h1 {
   background: url(../resourses/img/png/img_0.png) no-repeat;
 }
 .img1__p p {
-  position: absolute;
   width: 430px;
-  font-size: 20px;
-  color: white;
-  line-height: 27px;
   left: 40px;
   bottom: 40px;
+  position: absolute;
+  font-size: 20px;
+  line-height: 27px;
+  color: white;
 }
 .about_us {
   margin: 0 0 150px 0;
@@ -74,7 +74,7 @@ h1 {
 .link_services {
   width: 255px;
   height: 67px;
-  border-radius: 5px;
+  display: block;
   font-size: 20px;
   line-height: 67px;
   border-radius: 5px;
@@ -115,12 +115,14 @@ h1 {
 }
 
 .link_all_projects {
+  height: 153px;
   display: block;
   font-size: 30px;
   line-height: 153px;
   text-align: center;
-  text-decoration: none;
   border: 1px solid #ad1818;
+  border-radius: 5px;
+  text-decoration: none;
   color: #ad1818;
   background-color: #ffffff;
   cursor: pointer;
@@ -162,13 +164,13 @@ h1 {
   background: url(../resourses/img/png/img_8.png) no-repeat;
 }
 .example__img8__p p {
-  position: absolute;
   width: 443px;
-  font-size: 30px;
-  color: white;
-  line-height: 41px;
   left: 125px;
   bottom: 60px;
+  position: absolute;
+  font-size: 30px;
+  line-height: 41px;
+  color: white;
 }
 .contacts {
   padding: 0 0 150px 120px;
@@ -183,15 +185,14 @@ h1 {
   text-transform: uppercase;
 }
 .contacts__tel a {
+  margin: 0 0 30px 0;
+  display: block;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
-  display: block;
-  margin: 0px 0px 30px 0px;
 }
 .contacts__mail a {
-  border-bottom: 2px solid #121212;
   font-size: 60px;
   line-height: 60px;
   border-bottom: 2px solid #121212;
