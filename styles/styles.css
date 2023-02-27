@@ -1,7 +1,9 @@
 body {
+  background: #f5f5f5;
   font-family: Manrope, sans-serif;
   font-weight: 400;
   color: #121212;
+  box-sizing: border-box;
 }
 h1,
 h2,
@@ -14,67 +16,66 @@ a {
   letter-spacing: -0.03em;
 }
 .container_1400px {
-  width: 1400px;
   margin: 0 auto;
+  width: 1400px;
+  background: #ffffff;
 }
 .container_1150px {
-  width: 1150px;
   margin: 0 auto;
+  width: 1150px;
   padding: 0 125px;
-  /* box-sizing: border-box; */
-  /* из-за border-box текст вылазит за границу, а без него всё хорошо */
 }
 .header {
   height: 25px;
-  margin: 33px 0px 70px 0px;
+  margin: 33px 0 70px 0;
 }
 .navigation {
 }
 h1 {
+  margin: 0 0 30px 0;
   width: 971px;
   font-size: 60px;
   line-height: 60px;
-  margin-bottom: 30px;
 }
 .img1 {
-  margin: 0px 0px 150px 0px;
+  margin: 0 0 150px 0;
 }
 .img1__p {
-  position: relative;
-  background: url(../resourses/img/png/img_0.png) no-repeat;
   width: 100%;
   height: 500px;
+  position: relative;
+  background: url(../resourses/img/png/img_0.png) no-repeat;
 }
 .img1__p p {
-  position: absolute;
-  width: 430px;
-  font-size: 20px;
-  color: white;
-  line-height: 27px;
   left: 40px;
   bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  position: absolute;
+  color: white;
+  line-height: 27px;
 }
 .about_us {
-  margin: 0px 0px 150px 0px;
+  margin: 0 0 150px 0;
 }
 .about_us h2 {
-  margin: 0px 0px 30px 0px;
+  margin: 0 0 30px 0;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
 }
 
 .about_us__p {
+  margin: 0 0 30px 0;
+  width: 1048px;
   font-size: 45px;
   line-height: 61px;
-  margin: 0px 0px 30px 0px;
-  width: 1048px;
 }
 .link_services {
-  display: block;
   width: 255px;
   height: 67px;
   border-radius: 5px;
+  display: block;
   font-size: 20px;
   line-height: 67px;
   text-align: center;
@@ -85,24 +86,24 @@ h1 {
 }
 
 .projects {
-  margin: 0px 0px 150px 0px;
+  margin: 0 0 150px 0;
 }
 .projects h2 {
+  margin: 0 0 30px 0;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  margin: 0px 0px 30px 0px;
 }
 .projects img {
-  margin: 0px 0px 15px 0px;
+  margin: 0 0 15px 0;
 }
 .projects h3 {
+  margin: 0 0 15px 0;
   font-size: 30px;
   line-height: 41px;
-  margin: 0px 0px 15px 0px;
 }
 .projects * {
-  margin: 0px 0px 90px 0px;
+  margin: 0 0 90px 0;
 }
 .projects li a {
   display: block;
@@ -114,14 +115,13 @@ h1 {
 }
 
 .link_all_projects {
-  display: block;
-  box-sizing: border-box;
   height: 153px;
+  border: 1px solid #ad1818;
+  display: block;
   font-size: 30px;
   line-height: 153px;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #ad1818;
   color: #ad1818;
   background-color: #ffffff;
   cursor: pointer;
@@ -132,72 +132,72 @@ h1 {
 }
 
 .services {
+  padding: 150px 0 150px 0;
   background: #121212;
   color: #ffffff;
-  padding: 150px 0px 150px 0px;
 }
 .services h2 {
+  margin: 0 0 34px 0;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  margin: 0px 0px 34px 0px;
 }
 .services h3 {
+  margin: 0 0 15px 0;
   font-size: 30px;
   line-height: 41px;
-  margin: 0px 0px 15px 0px;
 }
 .services__list img {
-  margin: 0px 0px 15px 0px;
+  margin: 0 0 15px 0;
 }
 .services__list li:not(:last-child) {
-  margin: 0px 0px 60px 0px;
+  margin: 0 0 60px 0px;
 }
 .example {
-  margin: 0px 0px 150px 0px;
+  margin: 0 0 150px 0;
 }
 .example__img8__p {
-  position: relative;
-  background: url(../resourses/img/png/img_8.png) no-repeat;
   width: 100%;
   height: 717px;
+  position: relative;
+  background: url(../resourses/img/png/img_8.png) no-repeat;
 }
 .example__img8__p p {
-  position: absolute;
+  left: 125px;
+  bottom: 60px;
   width: 443px;
+  position: absolute;
   font-size: 30px;
   color: white;
   line-height: 41px;
-  left: 125px;
-  bottom: 60px;
 }
 .contacts {
-  margin: 0px 0px 150px 120px;
+  padding: 0 0 150px 120px;
 }
 .contacts__phone_img {
-  margin: 0px 0px 12px 0px;
+  margin: 0 0 12px 0;
 }
-.contacts__p p {
+.contacts__h2 h2 {
+  margin: 0 0 32px 0;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
-  margin: 0px 0px 32px 0px;
 }
 .contacts__tel a {
+  margin: 0 0 30px 0;
   font-size: 60px;
   line-height: 60px;
   text-decoration: none;
   color: #121212;
   display: block;
-  margin: 0px 0px 30px 0px;
 }
 .contacts__mail a {
+  border-bottom: 2px solid #121212;
   font-size: 60px;
   line-height: 60px;
   opacity: 0.5;
   color: #121212;
   text-decoration: none;
-  border-bottom: 2px solid #121212;
 }
 .footer {
 }
