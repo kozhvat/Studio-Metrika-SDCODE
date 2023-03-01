@@ -48,7 +48,7 @@ a {
 .header__links li a {
   color: #121212;
 }
-.header__link1 {
+.header__links a:hover {
   border-bottom: 1px solid #000;
   opacity: 0.5;
 }
@@ -231,7 +231,7 @@ h1 {
 .footer__links li a {
   color: #ffffff;
 }
-.footer__link1 {
+.footer__links a:hover {
   opacity: 0.5;
 }
 .copyright {
