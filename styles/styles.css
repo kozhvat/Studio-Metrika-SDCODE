@@ -50,7 +50,8 @@ a {
 .header__link {
   color: #121212;
   cursor: pointer;
-  transition: 0.2s;
+  border-bottom: 1px solid #ffffff;
+  transition: 0.4s;
 }
 .header__link:hover {
   border-bottom: 1px solid #000;
@@ -104,11 +105,11 @@ a {
   text-decoration: none;
   color: #ffffff;
   background-color: #ad1818;
+  border: 1px solid #ad1818;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.4s;
 }
 .about-us__services-link:hover {
-  font-size: 22px;
   border: 1px solid #ad1818;
   background-color: #ffffff;
   color: #ad1818;
@@ -226,14 +227,16 @@ a {
   line-height: 60px;
   text-decoration: none;
   color: #121212;
-}
-.contacts__tel:hover {
+  border-bottom: 2px solid #ffffff;
+  transition: 0.4s;
 }
 .contacts__mail {
   font-size: 60px;
   line-height: 60px;
   color: #121212;
   text-decoration: none;
+  border-bottom: 2px solid #ffffff;
+  transition: 0.4s;
 }
 .contacts__mail:hover,
 .contacts__tel:hover {
@@ -254,6 +257,7 @@ a {
 }
 .footer__link {
   color: #ffffff;
+  transition: 0.4s;
 }
 .footer__link:hover {
   opacity: 0.5;
