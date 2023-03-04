@@ -1,4 +1,10 @@
+html {
+  /* 10px */
+  /* font-size: 62.5%; */
+}
 body {
+  /* 16px */
+  /* font-size: 1.6rem; */
   font-family: Manrope, sans-serif;
   font-weight: 400;
   box-sizing: border-box;
