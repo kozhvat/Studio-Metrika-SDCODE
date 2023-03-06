@@ -1,6 +1,7 @@
 html {
   /* 10px */
   /* font-size: 62.5%; */
+  scroll-behavior: smooth;
 }
 body {
   /* 16px */
@@ -9,7 +10,7 @@ body {
   font-weight: 400;
   box-sizing: border-box;
   color: #121212;
-  background: #f5f5f5;
+  /* background: #f5f5f5; */
 }
 h1,
 h2,
@@ -24,7 +25,7 @@ a {
 }
 .content {
   margin: 0 auto;
-  width: 1400px;
+  /* width: 1400px; */
   background: #ffffff;
 }
 .container {
@@ -64,7 +65,7 @@ a {
   opacity: 0.5;
 }
 .we {
-  margin: 0 0 150px 0;
+  padding: 0 0 150px 0;
 }
 .we__header {
   margin: 0 0 30px 0;
@@ -88,7 +89,7 @@ a {
   color: white;
 }
 .about-us {
-  margin: 0 0 150px 0;
+  padding: 0 0 150px 0;
 }
 .about-us__header {
   margin: 0 0 30px 0;
@@ -115,7 +116,7 @@ a {
   transition: 0.4s;
 }
 .projects {
-  margin: 0 0 150px 0;
+  padding-bottom: 150px;
 }
 .projects__header {
   margin: 0 0 30px 0;
@@ -164,11 +165,12 @@ a {
   background: #121212;
   color: #ffffff;
 }
-.services__header {
-  margin: 0 0 34px 0;
-  font-size: 18px;
-  line-height: 25px;
-  text-transform: uppercase;
+.services__header-container {
+  margin: 0 auto;
+  width: 1150px;
+  padding-left: 125px;
+  padding-right: 125px;
+  padding-bottom: 34px;
 }
 .services__text {
   font-size: 30px;
@@ -181,17 +183,19 @@ a {
   margin: 0 0 60px 0;
 }
 .example {
-  margin: 0 0 150px 0;
-  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 0 150px 0;
+  /* overflow: hidden; */
 }
 .example__link {
   width: 100%;
   height: 717px;
   display: block;
   position: relative;
-  background: url(../resourses/img/png/example.png) no-repeat;
+  background: url(../resourses/img/png/example.png) 0 0 / cover no-repeat scroll;
+  background-position: 50%;
   cursor: pointer;
-  transition: 0.5s;
+  /* transition: 0.5s; */
 }
 /* .example__link:hover {
   transform: scale(1.02);
@@ -201,6 +205,7 @@ a {
   width: 443px;
   left: 125px;
   bottom: 60px;
+  padding: 0;
   position: absolute;
   font-size: 30px;
   line-height: 41px;
@@ -209,11 +214,16 @@ a {
 .contacts {
   padding: 0 0 150px 120px;
 }
-.contacts__phone-img {
-  margin: 0 0 12px 0;
-}
 .contacts__header {
   margin: 0 0 32px 0;
+}
+.contacts__header::before {
+  width: 24px;
+  height: 24px;
+  padding: 12px 0 0 0;
+  display: block;
+  content: '';
+  background: url(../resourses/img/png/phone.png) no-repeat;
 }
 .contacts__tel {
   margin: 0 0 30px 0;
