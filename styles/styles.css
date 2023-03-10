@@ -280,6 +280,7 @@ a {
 .footer__link {
   color: #ffffff;
   transition: 0.4s;
+  cursor: pointer;
 }
 .footer__link:hover {
   opacity: 0.5;
