@@ -6,6 +6,7 @@ html {
 body {
   /* 16px */
   /* font-size: 1.6rem; */
+  min-width: 1400px;
   font-family: Manrope, sans-serif;
   font-weight: 400;
   box-sizing: border-box;
