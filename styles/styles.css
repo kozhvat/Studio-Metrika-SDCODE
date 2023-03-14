@@ -84,7 +84,7 @@ a {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.2) 100%
     ),
-    url(../resourses/img/png/interior.png) no-repeat;
+    url(../resources/img/png/interior.png) no-repeat;
 }
 .we__text {
   width: 430px;
@@ -202,7 +202,7 @@ a {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 0.4) 100%
     ),
-    url(../resourses/img/png/example.png) 0 0 / cover no-repeat scroll;
+    url(../resources/img/png/example.png) 0 0 / cover no-repeat scroll;
   background-position: 50%;
   cursor: pointer;
   /* transition: 0.5s; */
@@ -235,7 +235,7 @@ a {
   padding: 12px 0 0 0;
   display: block;
   content: '';
-  background: url(../resourses/img/png/phone.png) no-repeat;
+  background: url(../resources/img/png/phone.png) no-repeat;
 }
 .contacts__tel {
   margin: 0 0 30px 0;
